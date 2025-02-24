@@ -1,7 +1,7 @@
- Streams API in Java in simple terms:
+Streams API in Java in simple terms:
 The Streams API is a modern and cleaner way to work with collections of data. It helps you write less code, do complex data processing easily, and even makes your programs run faster by using parallel processing.
 
-Cleaner and Shorter Code: Instead of writing long loops, Streams let you write code that says what you want to do rather than how to do it. It’s more readable and looks cleaner.
+Cleaner and Shorter Code: Instead of writing long loops, Streams let you write code that says what you want to do rather than how to do it. Itâ€™s more readable and looks cleaner.
 
 Example:
 Instead of using a loop to filter and modify a list, you can do it all in one line.
@@ -24,6 +24,6 @@ Functional Programming Style: Streams let you process data in a "functional" way
 
 Short-circuiting: You can stop processing as soon as you find what you need (e.g., find the first match), making it more efficient.
 
-Built-in Helpers: Streams come with a lot of built-in tools like filter(), map(), reduce(), etc., so you don’t have to write a lot of code yourself.
+Built-in Helpers: Streams come with a lot of built-in tools like filter(), map(), reduce(), etc., so you donâ€™t have to write a lot of code yourself.
 
 In short: The Streams API is a modern and cleaner way to work with collections of data. It helps you write less code, do complex data processing easily, and even makes your programs run faster by using parallel processing.
