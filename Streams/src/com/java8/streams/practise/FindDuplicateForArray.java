@@ -9,6 +9,7 @@ public class FindDuplicateForArray {
 	public static void main(String[] args) {
 		List<Integer> li = Arrays.asList(20, 20, 30, 12, 32, 42, 11, 13, 16, 10, 102, 104);
 		elementswithSetMethod(li);
+		
 		System.out.println();
 		List<Integer> myList = Arrays.asList(10, 20, 20, 30, 40, 50, 30, 50, 50);
 		elementswithpartitioning(myList);
@@ -37,6 +38,7 @@ public class FindDuplicateForArray {
 		Set<Integer> set = new HashSet();
 		System.out.println("Unique values using Set");
 		li.stream().filter(n -> set.add(n)).forEach(i -> System.out.print(i + " "));
+		
 		System.out.println();
 		System.out.println("Duplicate values using set are :");
 		set.clear(); // Clear the set to check for duplicates in the second pass
